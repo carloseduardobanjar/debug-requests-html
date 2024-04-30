@@ -40,7 +40,7 @@ def main():
     session = requests_html.HTMLSession()
 
     try:
-        for i in range(7757, len(df_links.index)):
+        for i in range(0, len(df_links.index)):
             url = df_links.iloc[i]['hyperlink']
             print(f"[{i}/{len(df_links.index)}]: {url}", flush=True)
             response, over_retry = __get_response_from_session(url, session)
