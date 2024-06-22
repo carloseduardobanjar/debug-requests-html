@@ -24,7 +24,7 @@ O objetivo deste projeto é:
 Para reproduzir e depurar o problema, você precisará do seguinte (embora o erro já tenha sido reproduzido em diversas máquinas com diferentes versões de software):
 
 - Python 3.8.10
-- `requests_html` (0.10.0)
+- `requests_html` 0.10.0
 
 ## Como Reproduzir o Problema
 
