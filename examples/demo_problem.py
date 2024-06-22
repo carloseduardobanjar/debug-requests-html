@@ -4,7 +4,7 @@ import os
 from requests_html import HTML
 
 # def main():
-#     df_links = pd.read_csv('links.csv')
+#     df_links = pd.read_csv('./links.csv')
 
 #     session = requests_html.HTMLSession()
 
