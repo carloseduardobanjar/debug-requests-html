@@ -2,7 +2,7 @@
 
 This repository was created to help identify and fix an issue in the `requests_html` library. Here, you will find code examples, instructions for reproducing the problem, and guidelines for contributing to the solution.
 
-## Objetivo
+## Objective
 
 The objectives of this project are:
 
@@ -11,7 +11,7 @@ The objectives of this project are:
 - Propose and test possible solutions.
 - Document the debugging process and the solutions found.
 
-## Estrutura do Repositório
+## Repository Structure
 
 - `files/`: Contains downloaded HTML pages.
 - `logs/`: Logs and output files to assist in the analysis.
@@ -19,14 +19,14 @@ The objectives of this project are:
 - `links.csv`: Links used to reproduce the error.
 - `README.md`: This documentation file.
 
-## Requisitos
+## Requirements
 
 To reproduce and debug the problem, you will need the following (although the error has already been reproduced on various machines with different software versions):
 
 - Python 3.8.10
 - `requests_html` 0.10.0
 
-## Como Reproduzir o Problema
+## How to Reproduce the Issue
 
 1. Clone this repository:
 
@@ -49,6 +49,6 @@ To reproduce and debug the problem, you will need the following (although the er
 
 **Note 1:** The problem is usually identified when the code seems to hang without showing any error logs or completion.
 
-## Contato
+## Contact
 
 If you have any questions or suggestions, feel free to open an issue or get in touch.
